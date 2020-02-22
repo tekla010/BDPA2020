@@ -1,0 +1,26 @@
+
+body{
+	background-image: url("bg/blue.jpg");
+}
+
+h1{
+	border-style: outset;
+	border-width: 5px;
+	border-color: blue;
+	background-color: #b3d1ff;
+}
+
+table{
+	border-style: outset;
+	border-width: 5px;
+	border-color: blue;
+	background-color: #b3d1ff;
+	cellpadding: 5px;
+}
+
+td{
+	border-style: dashed;
+	border-width: 3px;
+	border-color: blue;
+	background-color: #b3d1ff;
+}
