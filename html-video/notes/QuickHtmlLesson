@@ -1,0 +1,106 @@
+Teach html - to start don't put <html> stuff
+
+Html is just a bunch of formatted tags
+
+<tag> content </tag> - SHOW picture. element - basic building block of html.  Typically they are made of two tags: opening and closing tag. Sometimes they don't have both. 
+
+<strong> This is going to be a webite about stuff </strong>. It will teach me html. <em>I am going to code </em>.
+
+- notice how there are line breaks in the text but not on the site. in html you have to use a tag called br (breaking line)
+
+
+self closing tag : <br /> , <hr /> , <img .... /> the only ones of the top of my head. These are special. they are allowed to be like this . They self close with the forward slash 
+Known as an empty tag. opening and closing tag in one. 
+
+Another exception to the rule is a comment <!-- comment --> - for the coder to understand the code better. ex. strong tag stands for bold
+
+
+
+
+Header tag : <h1> gets smaller as the number goes down - do all at same time until h4
+good for headings on website
+
+
+Another thing is called nested html tags
+ex. <ul> </ul> - by iteself doesn't do too mush. 
+li inside ul tag. now it makes it a bit more useful. do ol real quick 
+
+
+
+
+show them actual structur element
+SHOW image
+<html>…</html>
+
+Every HTML document begins and ends with the <html> tag. This tells the browser that the following document is an html file. Remember, tags tell the browsers how to display information.
+
+<head>…</head>
+The <head> tag contains the title of the document along with general information about the file, like the author, copyright, keywords and/or a description of what appears on the page.
+
+<title>…</title>
+Appears within the <head> tags and gives the title of the page. Try to make your titles descriptive,
+
+<body>…</body>
+The main content of your page is placed within the body tags: your text, images, links, tables and so on
+
+put in html, head, and body tags now. add title tag
+
+Now lets get to attributes
+pull up image. lets show an example
+
+<body bgcolor = "lightblue"> boom!
+some attributes only work on specif tags and some apply to others (like bg)
+	go to cheat sheet
+	
+if want to change text color
+font tag <font color="red"> </font>
+
+
+
+insead of colors, starts with pound, called hexv alues
+
+
+attribute called background - use image insstead of color
+ - put in file name for body .
+
+
+
+speaking of images
+<img src /> self close cause no content
+
+add br tag
+
+lets do a link 
+a tag <a href="http:..." target = "_blank"> click me </a>
+ 
+ so can do multiple attributes as long in right format
+ 
+ img can aso have alt = "kitten"
+ 
+ 
+ oh btw, do another link where its another link on your website. make a new page
+ 
+ 
+ finally how to create a table
+*draw a table on whiteboard* 
+
+you got a table tag here
+	2 types of tags. rows are tr, able cells are td. inside of cells are where data goes
+	
+<table border="1">
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+
+</table>
+
+
+
+cellpadding = "10" maes spaces around words and border bigger
+add bgcolor (according to cheatsheet)to table and row and cell
