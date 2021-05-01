@@ -1,0 +1,16 @@
+{
+  "name": "bookshelf.api",
+  "version": "1.0.0",
+  "description": "api for bookshelf UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sifora Tek-Lab",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

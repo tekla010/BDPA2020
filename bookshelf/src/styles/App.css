@@ -1,0 +1,9 @@
+body {
+    background-color: #f1d2e8;
+}
+
+.output-border{
+    border: 5px solid black;
+    width: 50%;
+    float: right;
+}
